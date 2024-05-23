@@ -222,3 +222,59 @@ header{
         margin-left: 2rem;
     }
    }
+
+   /* Container */
+
+.container{
+    background-color: var(--grey);
+    padding-top: 15rem;
+}
+
+.container__header{
+    text-align: center;
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.work__types{
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.work__contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid gray;
+    padding-top: 2rem;
+}
+
+.text__content{
+    margin-left: 2rem;
+}
+
+.text__header{
+    font-size: 20px;
+}
+
+.text{
+    line-height: 1.8rem;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px){
+    .work__types{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 10rem 6rem 10rem;
+    }
+
+    .first__container{
+        padding-top: 2rem;
+    }
+    
+    .work__contents{
+        align-items: flex-start;
+    }
+}
