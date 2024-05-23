@@ -278,3 +278,55 @@ header{
         align-items: flex-start;
     }
 }
+
+/* Selector */
+
+.selector{
+    background-color: var(--navy);
+    color: white;
+}
+
+.wrap{
+    padding: 4rem 2.5rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.selector__header{
+    text-align: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+.reasons{
+    padding-top: 1.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+}
+
+.wrap-overall{
+    padding: 2rem 0;
+}
+
+.round-up{
+    border-bottom: 1px solid white;
+    padding: 2rem  0 2rem 0 ;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 1024px){
+    .wrap-overall{
+        margin: 0 7rem 0 7rem;
+    }
+
+    .round-up{
+        padding-right: 35rem;
+    }
+}
